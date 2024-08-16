@@ -1,0 +1,13 @@
+body {
+  background-color: #FF0000
+}
+ h1 {
+  background-color: rgba(212, 0, 255, 0.5);
+ }
+
+h2 {
+  background-color: cyan;
+  opacity: 0.5;
+}
+/* This will also make the text have the opacity as well */
+
