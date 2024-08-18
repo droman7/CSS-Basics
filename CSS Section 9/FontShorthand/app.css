@@ -1,0 +1,12 @@
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  /* font: 100 50px Montserrat; */
+  /* short hand of the above */
+}
+
+p {
+  font: 100 20px/2 Montserrat, sans-serif;
+  /* font weight is 100, size is 20px and double spaced with font family being Montserrat */
+}

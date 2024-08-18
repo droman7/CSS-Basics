@@ -1,0 +1,17 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  color: olive;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}

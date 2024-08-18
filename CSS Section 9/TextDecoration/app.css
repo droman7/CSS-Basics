@@ -1,0 +1,24 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration-line: line-through;
+  text-decoration-color: cyan;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 10px ;
+}
+/* Long form */
+
+
+h2 {
+  text-decoration: cyan wavy line-through;
+}
+
+p{
+  text-transform: capitalize;
+  text-decoration: red double line-through 5px;
+}
+/* Short form */
+
