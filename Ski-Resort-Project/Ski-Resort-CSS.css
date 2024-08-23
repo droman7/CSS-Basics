@@ -1,0 +1,47 @@
+body {
+    background-color: #463d36;
+    margin: 0;
+}
+
+div {
+    background-color: white;
+    width: 600px;
+    border-radius: 20px;
+    margin: 100px auto;
+    padding: 0px 40px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a6192e;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#Banana {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+
+#info {
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+#lift {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background-color: #463d36;
+    padding: 30px 40px;
+    margin-bottom: 40px;
+}
