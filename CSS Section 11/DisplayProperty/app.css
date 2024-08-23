@@ -1,0 +1,33 @@
+p {
+  font-size: 30px;
+}
+
+#word {
+  border: 10px solid teal;
+  padding: 20px;
+  margin: 30px;
+  height: 50px;
+  width: 100px;
+  /* display: inline-block; */
+}
+
+h1 {
+  border: 10px solid teal;
+  padding: 20px;
+  margin: 30px;
+  height: 300px;
+  display: inline;
+}
+
+.box {
+  border: 1px solid red;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+/* Block: Breaks onto a new line. Width and height are respected. Padding, margin, and border cause other elements to be pushed away from the box. The box extends in the inline direction to fill available space in container (unless styled otherwise) */
+
+/* Inline: Box does not break onto a new line. Width and height do not apply. Vetical padding, margin, and borders apply but do not cause other inine elements to move away from the box. Horizontal padding, margin, and border will apply and cause other boxes to move away. */
+
+/* Inline-Block: Hybrid of Inline and Block. Box does NOT break onto a new line. Width and height are respected. Padding, margin, and border will cause other elements to be pushed away from the box. */
