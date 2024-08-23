@@ -1,0 +1,16 @@
+/* * {
+    border: 1px solid green
+} */
+/* Asterisk selects all elements */
+
+p {
+    color: purple;
+}
+
+.tag {
+    color: orange;
+}
+
+#featured {
+    color: blue;
+}
