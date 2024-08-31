@@ -1,0 +1,10 @@
+p::first-line {
+  color: blue;
+  text-transform: uppercase;
+}
+p:first-of-type::first-letter {
+  color: magenta;
+  text-transform: uppercase;
+  font-size: 200%;
+}
+/* selects first paragraph in container and then first letter of that paragraph */

@@ -1,0 +1,21 @@
+/* 
+The Cascade
+  In the event of a conflict, which rule "wins"?
+    1. Importance
+      2. Origin
+        3. Specificity
+          4. Position
+
+          https://2019.wattenberger.com/blog/css-cascade
+*/
+
+* {
+  color: red;
+}
+h1 {
+  color: blue;
+}
+
+h1 {
+  color: magenta;
+}

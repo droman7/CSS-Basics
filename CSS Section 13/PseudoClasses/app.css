@@ -1,0 +1,100 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Merriweather, serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* p {
+  color: purple;
+}
+
+.tag {
+  color: orange;
+}
+
+#featured {
+  color: gold;
+}
+
+input[type="number"] {
+  background-color: gold;
+}
+
+a[href*="wiki"] {
+  color: cyan;
+}
+
+a[href^="#"] {
+  color: darkviolet;
+}
+
+.score,
+#featured,
+.tag {
+  color: white;
+  background-color: orangered;
+} */
+
+/* #cast span {
+  color: grey;
+}
+
+ol > li {
+  border: 1px solid red;
+} */
+
+/* h2 ~ p {
+  color: deeppink;
+} */
+/* h2 + p {
+  color: deeppink;
+} */
+
+/* h2.score {
+  color: blueviolet;
+} */
+
+.score:hover {
+  color: orange;
+} 
+
+/* input:placeholder-shown {
+  background-color: red;
+} */
+
+a:visited {
+  color: olive;
+}
+
+/* li:last-of-type {
+  border: 2px solid magenta;
+} */
+
+/* li:nth-of-type(2){
+  border: 2px solid red
+} */
+
+li:nth-of-type(2n){
+  border: 2px solid red
+}
+/* Every 2nd li is activated. Can even add 2n + 1 */
+
+input:focus {
+  background-color: yellow;
+}
+
+body :not(h1,h2,h3,h4,h5,h6) {
+  border: 5px solid green;
+}
+/* gives border to everything that is not a heading example */

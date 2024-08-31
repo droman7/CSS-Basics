@@ -1,0 +1,21 @@
+/* Specificity (Most Specific to Least Specific)
+    1. Inline Stles
+    2. Id Selectors
+    3. Class | Attribute  | Pseudo-Class
+    4. Type (P, H1, etc.) | Pseudo-Elements */
+
+p {
+  color:olive
+}
+
+.featured {
+  color: blueviolet;
+  font-size: 30px;
+}
+/* Class is more specific than Type p paragraph so it wins.
+Font size would still apply because only colors are competing */
+
+#special {
+  color: magenta;
+}
+/* class .featured loses to ID special because ID is more specific. */
