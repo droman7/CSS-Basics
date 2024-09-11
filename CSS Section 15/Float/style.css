@@ -1,0 +1,19 @@
+/* 
+Float
+Tells an element to position itself in the left or right side of its container. It gets removed fromt he normal document flow, which allows text and inline elements to wrap around it.
+*/
+.wizard {
+    border: solid red;
+}
+
+.wizard img {
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 40px;
+    margin-left: 50px;
+}

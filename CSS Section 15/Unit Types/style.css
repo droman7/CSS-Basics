@@ -1,0 +1,35 @@
+/* 
+Relative Units:
+EM
+REM
+VH
+VW
+%
+AND MORE!
+
+Absolute Units:
+PX: 1px = 1/96th of 1in
+PT: 1pt = 1/72nd of 1in
+CM: 1cm = 96px/2.54
+IN: 1in = 2.54cm = 96px
+MM: 1mm = 1/10th of 1cm
+*/
+
+.box {
+    background-color: purple;
+    height: 10cm;
+    width: 10cm;
+    margin: 200px;
+}
+
+/* 
+px - Avoid for font-sizes. Use px for small details like borders and shadows.
+
+rem/em - Go to choice for font-sizes and often padding/margin
+
+% - useful for defining ayouts and widths
+
+vh/vw - used for larger layout concerns
+
+
+*/

@@ -1,0 +1,35 @@
+/* 
+Root EMS
+
+Relative to the root html element's font-size. Often easier to work with.
+
+If the root font-size is 20px, 1 rem is always 20px, 2rem us akwats 40px, etc.
+*/
+
+
+/* Below will change and be bigger if font size is changed to be larger */
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+
+/* Below will stay the same if font size is changed to large on webpage */
+.pixels h1 {
+    font-size: 96px;
+}
+
+.pixels h2 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 32px;
+}

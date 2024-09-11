@@ -1,0 +1,26 @@
+/* 
+View Height & View Width
+1vw is 1% of the width of the viewport
+1vh is 1% of the height of the viewport
+
+For example: height: 100vh would make an element take up the full height on screen.
+*/
+
+body {
+    margin: 0;
+    width: 800px;
+}
+
+.container {
+    background-color: magenta;
+    width: 50vw;
+    height: 100vh;
+    
+}
+
+.container2 {
+    background-color: cyan;
+    width: 100vw;
+    height: 100vh;
+    
+}

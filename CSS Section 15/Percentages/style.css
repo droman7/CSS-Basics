@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid black;
+    height: 600px;
+    width: 600px;
+}
+
+.box {
+    background-color: olive;
+    width: 50%;
+    height: 50%;
+}
+    
+    /* .box is relative to the width and height of the .container box.
+    It is 50% the width of its parents size.
+    Percentages are always relative to some other value. Sometimes, it's a value from the parent and other times it's a value from the element itself.
+    Width: 50% - half the width of the parent
+    Line-height: 50% - half the font-size of the element itself */
+
+p {
+font-size: 40px;
+line-height: 100%;
+}
