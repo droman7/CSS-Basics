@@ -1,0 +1,21 @@
+/* Fixed
+Element is removed from normal document flow, and is positioned relative to root container element
+
+No space is left where it used to be!
+
+Top, right, bottom, left, and z-index can be used to scoot the element relative to the root element
+
+When you scroll, it will stay in place
+*/
+
+span {
+  font-size: 2rem;
+  display: block;
+  width: 100%;
+  padding: 30px;
+  background-color: orchid;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
